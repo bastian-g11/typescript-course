@@ -1,0 +1,19 @@
+{
+  "name": "web-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:parcel": "parcel index.html",
+    "start:server": "json-server -w db.json"
+  },
+  "keywords": [],
+  "author": "bastian",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
